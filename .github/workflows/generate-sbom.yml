@@ -59,3 +59,4 @@ jobs:
           sbom-file: bom.json
           product-name: "langium-workspaces"
           product-version: ${{ steps.version.outputs.PROJECT_VERSION }}
+          staging: true
